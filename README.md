@@ -490,3 +490,92 @@ function my_cool_plugin_settings_page() {
 <?php } ?>
 ~~~
 "# documentos" 
+
+
+## Cómo Mejorar la Caligrafía con Letra de Imprenta
+
+[enlace](https://www.youtube.com/watch?v=WueBqOgW7UA)
+
+## roeles y permisos 
+
+https://spatie.be/docs/laravel-permission/v4/introduction
+
+
+
+[02 - Cómo crear roles y permisos](https://www.youtube.com/watch?v=r5Zs9CGB754&list=PLZ2ovOgdI-kXghwSkvcQ1zVbsyUeYD8Wi&index=3)
+0:40 Crear Seeder
+1:38 Importar el modelo del rol
+1:59 crear roles en el seeder
+3:27 importar permisos y crealos en el seeder
+4:24 ver el nombre de las rutas
+6:48 vamos al archivo database seeder
+9:08 asignar permiso a la tabla intermedia
+10:45 syncRoles
+12:55 assignRole
+
+[How to generate scaffold with Infyom Laravel Generator](https://www.youtube.com/watch?v=g6Rp98_0inQ&list=PL0wCC44AhrC3JHzcB5qmjYkm70OaoKegg&index=4&t=81s)
+
+selectTable:users:name,id
+
+php artisan infyom:scaffold User --fromTable --tableName=users --ignoreFields=email_verified_at,remember_token
+
+
+
+otras opciones
+:api \$MODEL_NAME$ --paginate=10  
+:scaffold \$MODEL_NAME --datatables=true  
+:scaffold \$MODEL_NAME --views=index,create,edit,show  
+:scaffold \$MODEL_NAME --factory  
+:scaffold \$MODEL_NAME --seeder    
+:scaffold \$MODEL_NAME --fieldsFile=filename_from_model_schema_directory_OR_path_from_base_directory_OR_absolute_file_path
+:scaffold \$MODEL_NAME --tableName=custom_table_name  
+:scaffold \$MODEL_NAME --fromTable --tableName=$TABLE_NAME
+:scaffold \$MODEL_NAME --fromTable --tableName=$TABLE_NAME --connection=connectionName  
+:api_scaffold Post --skip=routes,migration,model  
+:scaffold \$MODEL_NAME --primary=custom_name_id
+:scaffold \$MODEL_NAME --plural=AuthorBooks
+:scaffold \$MODEL_NAME --prefix=admin
+:scaffold \$MODEL_NAME --ignoreFields=geo_location,last_login
+:scaffold \$MODEL_NAME --forceMigrate
+:api \$MODEL_NAME --resources=true
+
+| upported HTML Input Types & Formats                            | Valid Examples                     |
+| -------------------------------------------------------------- | ---------------------------------- |
+| text                                                           | text                               |
+| textarea                                                       | textarea                           |
+| email                                                          | email                              |
+| date                                                           | date                               |
+| number                                                         | number                             |
+| password                                                       | password                           |
+| file (partially supported)                                     | file                               |
+| select                                                         |                                    |
+| select,value1,value2,value3                                    | select,Daily,Weekly,Monthly        |
+| select,label1:value1,label2:value2,label3:value3               | select,Sunday:0,Monday:1,Tuesday:2 |
+| select from existing table                                     |                                    |
+| selectTable:tableName:column1,column2                          | selectTable:users:name,id          |
+| Note:where column1 is Option Label and column2 is Option Value | selectTable:categories:title,id    |
+| checkbox                                                       | checkbox                           |
+| checkbox,value                                                 | checkbox,yes                       |
+|                                                                | checkbox,1                         |
+| radio                                                          |                                    |
+| radio,label1,label2                                            | radio,Male,Female                  |
+| radio,label1:value1,label2:value2                              | radio,Yes:1,No:0                   |
+| toggle switch                                                  | toggle-switch                      |
+
++ diagrama de gant [que es ](https://www.youtube.com/watch?v=7dXAFrxBOCY) 
++ kanban [que es ](https://www.youtube.com/watch?v=WP6Nt5XV980)  
+<img src="capturas/Screenshot_1.jpg" width="100">
+
++ [SCRUMBAN - Lo mejor de Scrum y Kanban](https://www.youtube.com/watch?v=Kxz0_rDmRho)
+
++ [metodologias-cris-rua](https://www.youtube.com/watch?v=v3fLx7VHxGM&list=PLotrodX72SrScd-gxE4DESavRsHkC9Wyl&index=2)
+
+
+
++ curso de plantillas html
+[youtube](https://www.youtube.com/watch?v=Lb0-zL4OYL0) 
++ inspiracion css
+[youtube](https://www.youtube.com/watch?v=yI0X4e7bxHU) 
+
++ [curso de laravel y gralpql](https://www.youtube.com/watch?v=mt_o7ZWjEhA&list=PLWIk9Jo3Sp-VTXF1e-vJ9KdM-7jFjXR1l&index=1) 
++ [app inventor quiz](https://www.youtube.com/watch?v=XxCoBZuai5w)
