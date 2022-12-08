@@ -1,3 +1,8 @@
+## obtener los script de  cualquier pagina web
+~~~javascript
+Array.from(document.scripts).forEach(x=>console.log(x.src))
+Array.from(document.getElementsByTagName("link")).forEach(x=>console.log(x.href))
+~~~
 ##migrar sitio de wordporess
 ~~~sql
 UPDATE wp_options SET option_value = REPLACE ( option_value, 'dominioantiguo.com', 'dominionuevo.com' );
