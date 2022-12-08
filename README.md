@@ -61,7 +61,7 @@ var data = "hola mundooo";
 saveData(data, fileName);
 
 ~~~
-##extraer videos de youtube
+## extraer videos de youtube
 
 ~~~javascript
 
@@ -141,7 +141,7 @@ casper.run();
 
 ~~~
 
-##Scraper de  http://w3.unpocodetodo.info/index.php
+## Scraper de  http://w3.unpocodetodo.info/index.php
 ~~~javascript
 // http://w3.unpocodetodo.info/index.php
 $(".cheatsheet td:nth-of-type(1), .composite td:nth-of-type(1)").text(function(){this.innerHTML ="Metodo, "+this.innerHTML})
