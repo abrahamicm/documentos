@@ -1,8 +1,9 @@
 # Basic Objects
-## Array Methods
+## Array Properties
 - 001 constructor.
 - 002 length.
 - 003 prototype.
+## Array Methods
 - 004 concat().
 - 005 indexOf().
 - 006 join().
