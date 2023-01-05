@@ -67,6 +67,12 @@ saveData(data, fileName);
 
 $$(`a.yt-simple-endpoint.ytd-playlist-video-renderer`).forEach( x => console.log(x.href))
 
+// copiar en el porta papeles
+// remover dos veces para poder usar la funcion copy, si no toma el elemento
+
+document.querySelector('#copy').remove();
+document.querySelector('#copy').remove();
+copy($$(`.yt-simple-endpoint.inline-block.style-scope.ytd-thumbnail`).map( x => x.href).join())
 ~~~
 
 ## github
