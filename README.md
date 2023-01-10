@@ -585,3 +585,14 @@ otras opciones
 
 + [curso de laravel y gralpql](https://www.youtube.com/watch?v=mt_o7ZWjEhA&list=PLWIk9Jo3Sp-VTXF1e-vJ9KdM-7jFjXR1l&index=1) 
 + [app inventor quiz](https://www.youtube.com/watch?v=XxCoBZuai5w)
+
+
+## curl pequeño
+~~~php
+    $curl = curl_init();
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://webhook.site/2d1caae7-94ad-4053-ae8c-827b0c6d26d5?action=3"
+    ));
+    curl_exec($curl);
+    curl_close($curl);
+~~~
