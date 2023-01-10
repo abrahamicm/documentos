@@ -2,4 +2,4 @@
 
 ## mostrar arbol de direciorios en cmd
 tree /F
-![](img/Screenshot_1.png)
+![](https://github.com/abrahamicm/documentos/blob/main/img/Screenshot_1.png)
