@@ -599,6 +599,7 @@ otras opciones
 
 ## curl post 
 ~~~php
+    $data = json_encode($_POST);
     $curl = curl_init();
     curl_setopt_array($curl, array(
         CURLOPT_URL => "https://webhook.site/2d1caae7-94ad-4053-ae8c-827b0c6d26d5",
